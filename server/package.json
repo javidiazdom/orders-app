@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Simple server for orders App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Javier Díaz Domínguez",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^3.0.4",
+    "sqlite3": "^5.0.0"
+  }
+}
