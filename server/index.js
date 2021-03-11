@@ -7,7 +7,6 @@ const io = require('socket.io')(http, {
     cors: { origin: "*"}
 });
 
-//Esto es un test
 
 io.on('connection', (socket) => {
     db.get("SELECT * FROM orders", (error, row) => {
